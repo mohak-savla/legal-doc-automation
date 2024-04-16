@@ -1,3 +1,5 @@
+import React from 'react';
+import Register from './components/Register'; // Now this import will be used
 import logo from './logo.svg';
 import './App.css';
 
@@ -17,6 +19,7 @@ function App() {
         >
           Learn React
         </a>
+        <Register /> {/* Here the Register component is included in the output */}
       </header>
     </div>
   );
